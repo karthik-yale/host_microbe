@@ -18,3 +18,31 @@ A key step towards rational microbiome engineering is the in silico sampling of 
 In this repository we have all the code and data that were used to analyze the data and produce all the figures in this [paper](https://doi.org/10.1101/2023.04.28.538625)
 
 ## Repository structure
+## Installation
+
+To run the code in this repository, you need to set up the correct Python environment. This can be done using the environment.yml file provided.
+
+### Prerequisites
+
+Conda: Ensure you have Conda installed.
+
+### Setting Up the Environment
+
+Clone the repository:
+
+    git clone https://github.com/your_username/your_repository_name.git
+    cd your_repository_name
+
+Create a new conda environment using the environment.yml file:
+
+    conda env create -f environment.yml
+
+Activate the newly created environment:
+
+    conda activate host_microbe
+
+Verify the installation:
+
+    python -m pip check
+
+This ensures that all dependencies have been correctly installed.
