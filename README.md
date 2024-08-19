@@ -47,23 +47,53 @@ Conda: Ensure you have Conda installed.
 
 ### Setting Up the Environment
 
-Clone the repository:
+1. Clone the repository:
 
-    git clone https://github.com/your_username/your_repository_name.git
-    cd your_repository_name
+        git clone https://github.com/your_username/your_repository_name.git
+        cd your_repository_name
 
-Create a new conda environment using the environment.yml file:
+2. Create a new conda environment using the environment.yml file:
 
-    conda env create -f environment.yml
+        conda env create -f environment.yml
 
-Activate the newly created environment:
+3. Activate the newly created environment:
 
-    conda activate host_microbe
+        conda activate host_microbe
 
-Verify the installation:
+4. Verify the installation:
 
-    python -m pip check
+        python -m pip check
 
 This ensures that all dependencies have been correctly installed.
 
+## Usage
+
+The main analyses and figures in this repository are generated using Jupyter notebooks. Each notebook is self-contained and designed to guide you step by step through the analysis process.
+
+### Running the Jupyter Notebooks
+
+1. Activate the Environment:
+
+        conda activate host_microbe
+
+2. Launch Jupyter Notebook:
+
+        jupyter notebook
+
+3. Open the Notebooks:
+
+    Navigate to the notebook you want to run (e.g., fig_1.ipynb), and open it in your browser.
+
+4. Execute the Cells:
+
+    Work through each notebook by executing the cells in sequence. The notebooks will call the necessary Python scripts and perform the analysis for you.
+
+5. Output:
+
+    The notebooks are designed to generate and display the figures directly in the notebook, as well as any results or outputs from the analysis.
+
+### Recommended Workflow
+
+Start with the first notebook (figure1_analysis.ipynb) and proceed through the notebooks in the order they are provided.
+Each notebook builds on the previous one and will guide you through the analysis steps required to replicate the figures in the paper.
 
