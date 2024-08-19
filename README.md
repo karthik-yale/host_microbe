@@ -104,3 +104,12 @@ This project is licensed under the [Apache License 2.0](LICENSE).
 - You are free to use, distribute, and modify the code under the terms of the Apache License 2.0.
 - Provides an explicit grant of patent rights.
 - Requires attribution to the original author.
+
+## Contact
+
+For questions, comments, or inquiries about this project, please reach out to:
+
+- **Primary Contact**: Karthik Srinivasan
+  - **Email**: karthik.srinivasan@yale.edu
+
+Feel free to open an issue on the host_microbe repository (https://github.com/karthik-yale/host_microbe) if you encounter any bugs or have suggestions for improvement.
