@@ -18,6 +18,25 @@ A key step towards rational microbiome engineering is the in silico sampling of 
 In this repository we have all the code and data that were used to analyze the data and produce all the figures in this [paper](https://doi.org/10.1101/2023.04.28.538625)
 
 ## Repository structure
+
+```
+host_microbe/
+│
+├── gradientDescent.py        # Class to fit the latent variable model (LVM) to microbiomes
+├── gradientDescentMeta.py    # Class to fit the LVM to microbiomes and a linear model to metadata simultaneously
+├── phenotype_constraint.py   # Class used for additional analyses
+├── fig_1.ipynb               # Jupyter notebook for analysing low dimensionality
+├── fig_2.ipynb               # Jupyter notebook to check accuracy of generative capacity of the LVM
+├── fig_3.ipynb               # Jupyter notebook to identify phenotypes that constrain microbiome
+├── fig_4.ipynb               # Jupyter notebook to quantify context-specificity in host-microbiome associations
+├── fig_5.ipynb               # Jupyter notebook to design microbiomes for desired phenotypic states
+├── data_files/               # Directory containing all data files
+│   └── ...                   
+├── environment.yml           # Conda environment configuration file
+├── README.md                 # Project overview and instructions (this file)
+└── LICENSE                   # License information for the repository
+```
+
 ## Installation
 
 To run the code in this repository, you need to set up the correct Python environment. This can be done using the environment.yml file provided.
@@ -46,3 +65,5 @@ Verify the installation:
     python -m pip check
 
 This ensures that all dependencies have been correctly installed.
+
+
