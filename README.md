@@ -7,9 +7,6 @@ A key step towards rational microbiome engineering is the in silico sampling of 
 - [Repository Structure](#repository-structure)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Data](#data)
-- [Figures](#figures)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -97,3 +94,13 @@ The main analyses and figures in this repository are generated using Jupyter not
 Start with the first notebook (figure1_analysis.ipynb) and proceed through the notebooks in the order they are provided.
 Each notebook builds on the previous one and will guide you through the analysis steps required to replicate the figures in the paper.
 
+
+## License
+
+This project is licensed under the [Apache License 2.0](LICENSE). 
+
+### Summary
+
+- You are free to use, distribute, and modify the code under the terms of the Apache License 2.0.
+- Provides an explicit grant of patent rights.
+- Requires attribution to the original author.
