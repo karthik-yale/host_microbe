@@ -22,6 +22,7 @@ host_microbe/
 ├── gradientDescent.py        # Class to fit the latent variable model (LVM) to microbiomes
 ├── gradientDescentMeta.py    # Class to fit the LVM to microbiomes and a linear model to metadata simultaneously
 ├── phenotype_constraint.py   # Class used for additional analyses
+├── calc_local_cov.py         # Calculates personalized microbiome covariances for fig_4.ipynb
 ├── fig_1.ipynb               # Jupyter notebook for analysing low dimensionality
 ├── fig_2.ipynb               # Jupyter notebook to check accuracy of generative capacity of the LVM
 ├── fig_3.ipynb               # Jupyter notebook to identify phenotypes that constrain microbiome
