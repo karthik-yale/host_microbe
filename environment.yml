@@ -1,4 +1,4 @@
-name: CGM
+name: host_microbe
 channels:
   - conda-forge
   - bioconda
