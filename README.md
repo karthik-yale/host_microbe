@@ -35,13 +35,19 @@ host_microbe/
 └── LICENSE                   # License information for the repository
 ```
 
-## Installation
-
-To run the code in this repository, you need to set up the correct Python environment. This can be done using the environment.yml file provided.
-
 ### Prerequisites
 
-Conda: Ensure you have Conda installed.
+- Conda: Ensure you have Conda installed.
+- **[Git LFS](https://git-lfs.github.com/)**: This repository uses Git Large File Storage
+
+## Installation
+
+- To install git lfs, run
+        
+        git lfs install
+
+- If you have trouble installing git lfs, that step can be skipped and the large files, 'data_files/all_phens_covs.json' and 'data_files/my_object.pkl', can be downloaded manually
+- To run the code in this repository, you need to set up the correct Python environment. This can be done using the environment.yml file provided.
 
 ### Setting Up the Environment
 
