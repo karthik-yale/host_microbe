@@ -38,19 +38,38 @@ host_microbe/
 ### Prerequisites
 
 - Conda: Ensure you have Conda installed.
-- **[Git LFS](https://git-lfs.github.com/)**: This repository uses Git Large File Storage
 
 ## Installation
 
-- To install git lfs, run
+### Git lfs
+
+Git lfs is needed to download the large files in this repository. This can be installed by running the following commands,
+
+#### Debian / Ubuntu
+
+        curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+        sudo apt-get update
+        sudo apt-get install git-lfs
+        git lfs install
+
+#### MacOS (Using Homebrew)
+
+        brew update
+        brew install git-lfs
+        git lfs install
+
+#### Windows
+
+Download and run the latest windows installer. Then run the following command in a command prompt or git for windows prompt,
         
         git lfs install
 
-- If you have trouble installing git lfs, that step can be skipped and the large files, 'data_files/all_phens_covs.json' and 'data_files/my_object.pkl', can be downloaded manually
-- To run the code in this repository, you need to set up the correct Python environment. This can be done using the environment.yml file provided.
+- For other operating systems, detailed instructions to install git lfs can be found [here](https://github.com/git-lfs/git-lfs/wiki/Installation).
+- If you have trouble installing git lfs, that step can be skipped and the large files, 'data_files/all_phens_covs.json' and 'data_files/my_object.pkl', can be downloaded manually.
+
 
 ### Setting Up the Environment
-
+To run the code in this repository, you need to set up the correct Python environment. This can be done using the environment.yml file provided.
 1. Clone the repository:
 
         git clone https://github.com/karthik-yale/host_microbe.git
